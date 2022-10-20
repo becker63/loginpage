@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap");
+
+.debuginfo {
+  place-self: center;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+body {
+  background-color: #181A1B;
+  color: #E8E6E3;
+}
+
+.row {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  display: wrap;
+}
+
+.loginbox {
+  grid-column: 2;
+  grid-row: 2;
+  height: 400px;
+  width: 400px;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: large;
+}
+
+.bigIcon {
+  font-size: 60px;
+}
+
+h1 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.subtitle {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 11px;
+
+  color: #696a6b;
+}
+
+input {
+  border: none;
+  border-bottom: solid rgb(143, 143, 143) 1px;
+
+  margin-bottom: 30px;
+
+  background: none;
+
+  height: 35px;
+  width: 400px;
+  font-size: 11px;
+}
+
+input[type="text"]
+{
+    font-size:24px;
+    
+}
+
+input[type="password"]
+{
+    font-size:24px;
+    outline: none !important;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.button {
+    cursor: pointer;
+  
+    border: none;
+    border-radius: 8px;
+  
+    /*box-shadow: 2px 2px 7px #38d39f70; */
+  
+    background: #383838;
+    color: rgba(255, 255, 255, 0.8);
+  
+    width: 80px;
+  
+    transition: all .5s;
+  }
+  
+  .button:hover {
+    background: rgb(123, 123, 123);
+  
+    box-shadow: none;
+  }
+
+
+
+  .showcode {
+    opacity: 1;
+    transition: all 250ms linear;
+  }
+  
+  .hidecode {
+    opacity: 0;
+    transition: all 250ms linear 2s;
+  }
+
+  
